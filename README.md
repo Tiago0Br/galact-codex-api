@@ -7,11 +7,10 @@ Este documento rastreia o progresso do desafio técnico para a vaga de Backend P
 **Stack:** Python 3.12, Flask, GCP (Cloud Functions, API Gateway), Pydantic.
 
 ### 📅 Fase 1: Fundação & Configuração (Dia 30/01)
-- [ ] Configurar ambiente local com `uv` (`uv init --python 3.12`).
-- [ ] Definir estrutura de pastas do projeto (Clean Architecture simplificada).
-- [ ] Configurar Git e criar repositório remoto.
-- [ ] Instalar dependências iniciais (`flask`, `requests`, `pydantic`).
-- [ ] **POC SWAPI**: Criar script simples para testar conexão com a API do Star Wars.
+- [X] Configurar ambiente local com `uv` (`uv init --python 3.12`).
+- [X] Definir estrutura de pastas do projeto (Clean Architecture simplificada).
+- [X] Configurar Git e criar repositório remoto.
+- [X] Instalar dependências iniciais (`flask`, `requests`, `pydantic`).
 
 ### 📅 Fase 2: Core da Aplicação & Regras de Negócio (Dia 31/01)
 - [ ] **Models (Pydantic)**: Criar schemas para validar dados de entrada e saída (Personagens, Filmes, etc.).

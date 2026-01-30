@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "API para consultar diversas informações sobre a lore da franquia Star Wars"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+  "flask>=3.1.2",
+  "pydantic>=2.12.5",
+  "python-dotenv>=1.2.1",
+  "requests>=2.32.5",
+]
