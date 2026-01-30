@@ -1,0 +1,7 @@
+[project]
+name = "galact-codex-api"
+version = "0.1.0"
+description = "API para consultar diversas informações sobre a lore da franquia Star Wars"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
