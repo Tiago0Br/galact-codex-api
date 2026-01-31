@@ -13,7 +13,7 @@ Este documento rastreia o progresso do desafio técnico para a vaga de Backend P
 - [X] Instalar dependências iniciais (`flask`, `requests`, `pydantic`).
 
 ### 📅 Fase 2: Core da Aplicação & Regras de Negócio (Dia 31/01)
-- [ ] **Models (Pydantic)**: Criar schemas para validar dados de entrada e saída (Personagens, Filmes, etc.).
+- [X] **Models (Pydantic)**: Criar schemas para validar dados de entrada e saída (Personagens, Filmes, etc.).
 - [ ] **Service Layer**: Implementar lógica de consumo da SWAPI (com tratamento de erros).
 - [ ] **Controller/Routes**: Criar endpoints Flask (`/characters`, `/films`, etc.).
 - [ ] Implementar **Filtros**: Permitir busca por nome, ID ou características.
