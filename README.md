@@ -14,8 +14,8 @@ Este documento rastreia o progresso do desafio técnico para a vaga de Backend P
 
 ### 📅 Fase 2: Core da Aplicação & Regras de Negócio (Dia 31/01)
 - [X] **Models (Pydantic)**: Criar schemas para validar dados de entrada e saída (Personagens, Filmes, etc.).
-- [ ] **Service Layer**: Implementar lógica de consumo da SWAPI (com tratamento de erros).
-- [ ] **Controller/Routes**: Criar endpoints Flask (`/characters`, `/films`, etc.).
+- [X] **Service Layer**: Implementar lógica de consumo da SWAPI (com tratamento de erros).
+- [X] **Controller/Routes**: Criar endpoints Flask (`/characters`, `/films`, etc.).
 - [ ] Implementar **Filtros**: Permitir busca por nome, ID ou características.
 - [ ] Implementar **Ordenação**: Lógica para ordenar resultados (Ex: Alfabética, Ano de lançamento).
 
