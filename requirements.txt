@@ -25,7 +25,7 @@ flask==3.1.2
     #   functions-framework
 functions-framework==3.10.0
     # via galact-codex-api (pyproject.toml)
-gunicorn==25.0.0
+gunicorn==25.0.1
     # via
     #   functions-framework
     #   uvicorn-worker

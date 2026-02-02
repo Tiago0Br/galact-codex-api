@@ -11,9 +11,11 @@ class Person(BaseModel):
   birth_year: str
   gender: str
   films: List[str] 
-  
+
   @field_validator('height', mode='before')
   def parse_height(cls, v):
+    if isinstance(v, int):
+      return v
     if isinstance(v, str) and v.isnumeric():
       return int(v)
     return None
