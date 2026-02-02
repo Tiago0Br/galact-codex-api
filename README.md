@@ -20,12 +20,12 @@ Este documento rastreia o progresso do desafio técnico para a vaga de Backend P
 - [ ] Implementar **Ordenação**: Lógica para ordenar resultados (Ex: Alfabética, Ano de lançamento).
 
 ### 📅 Fase 3: Infraestrutura Nuvem - GCP (Dia 01/02)
-- [ ] Criar projeto no Google Cloud Platform.
-- [ ] Habilitar APIs necessárias (Cloud Functions, Cloud Build, API Gateway).
-- [ ] Instalar e configurar `gcloud CLI` localmente.
-- [ ] Ajustar código para compatibilidade com Cloud Functions (Entrypoint).
-- [ ] **Deploy v1**: Realizar o primeiro deploy da Cloud Function.
-- [ ] Testar função rodando na nuvem (URL direta).
+- [X] Criar projeto no Google Cloud Platform.
+- [X] Habilitar APIs necessárias (Cloud Functions, Cloud Build, API Gateway).
+- [X] Instalar e configurar `gcloud CLI` localmente.
+- [X] Ajustar código para compatibilidade com Cloud Functions (Entrypoint).
+- [X] **Deploy v1**: Realizar o primeiro deploy da Cloud Function.
+- [X] Testar função rodando na nuvem (URL direta).
 
 ### 📅 Fase 4: Profissionalização & Segurança (Dia 02/02)
 - [ ] Configurar **API Gateway** no GCP.
