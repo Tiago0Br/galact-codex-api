@@ -28,10 +28,10 @@ Este documento rastreia o progresso do desafio técnico para a vaga de Backend P
 - [X] Testar função rodando na nuvem (URL direta).
 
 ### 📅 Fase 4: Profissionalização & Segurança (Dia 02/02)
-- [ ] Configurar **API Gateway** no GCP.
-- [ ] Configurar rotas do Gateway apontando para a Cloud Function.
-- [ ] Implementar segurança básica (API Key ou validação de Header).
-- [ ] Verificar Logs no GCP (Stackdriver/Cloud Logging).
+- [X] Configurar **API Gateway** no GCP.
+- [X] Configurar rotas do Gateway apontando para a Cloud Function.
+- [X] Implementar segurança básica (API Key ou validação de Header).
+- [X] Verificar Logs no GCP (Stackdriver/Cloud Logging).
 
 ### 📅 Fase 5: Qualidade & Testes (Dia 03/02)
 - [ ] Configurar `pytest`.

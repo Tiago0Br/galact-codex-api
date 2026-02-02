@@ -1,0 +1,54 @@
+swagger: '2.0'
+info:
+  title: Galactic Codex API
+  description: API para consulta de dados de Star Wars via SWAPI
+  version: 1.0.0
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /people:
+    get:
+      summary: Busca personagens
+      operationId: getPeople
+      x-google-backend:
+        address: https://galactic-codex-api-hnh7uyz5fa-uc.a.run.app/people
+      responses:
+        '200':
+          description: Sucesso
+          schema:
+            type: string
+  /films:
+    get:
+      summary: Busca filmes
+      operationId: getFilms
+      x-google-backend:
+        address: https://galactic-codex-api-hnh7uyz5fa-uc.a.run.app/films
+      responses:
+        '200':
+          description: Sucesso
+          schema:
+            type: string
+  /planets:
+    get:
+      summary: Busca planetas
+      operationId: getPlanets
+      x-google-backend:
+        address: https://galactic-codex-api-hnh7uyz5fa-uc.a.run.app/planets
+      responses:
+        '200':
+          description: Sucesso
+          schema:
+            type: string
+  /starships:
+    get:
+      summary: Busca naves
+      operationId: getStarships
+      x-google-backend:
+        address: https://galactic-codex-api-hnh7uyz5fa-uc.a.run.app/starships
+      responses:
+        '200':
+          description: Sucesso
+          schema:
+            type: string
