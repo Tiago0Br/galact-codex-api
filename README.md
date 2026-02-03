@@ -34,9 +34,9 @@ Este documento rastreia o progresso do desafio técnico para a vaga de Backend P
 - [X] Verificar Logs no GCP (Stackdriver/Cloud Logging).
 
 ### 📅 Fase 5: Qualidade & Testes (Dia 03/02)
-- [ ] Configurar `pytest`.
-- [ ] Criar **Testes Unitários** para os Services (usando Mocks para a SWAPI).
-- [ ] Criar **Testes de Integração** para os Endpoints.
+- [X] Configurar `pytest`.
+- [X] Criar **Testes Unitários** para os Services (usando Mocks para a SWAPI).
+- [X] Criar **Testes de Integração** para os Endpoints.
 - [ ] Rodar Linter/Formatter (`ruff` ou `black`) para garantir PEP-8.
 
 ### 📅 Fase 6: Documentação & Entrega (Dia 04/02)

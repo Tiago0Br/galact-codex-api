@@ -12,8 +12,13 @@ dependencies = [
   "requests>=2.32.5",
 ]
 
+[tool.pytest.ini_options]
+markers = [
+  "live: testes que batem na API do Swapi"
+]
+
 [dependency-groups]
 dev = [
-    "pytest>=9.0.2",
-    "pytest-mock>=3.15.1",
+  "pytest>=9.0.2",
+  "pytest-mock>=3.15.1",
 ]
