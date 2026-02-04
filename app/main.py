@@ -3,19 +3,16 @@ from app.services.swapi import SwapiService
 
 app = Flask(__name__)
 
-# Rota raiz apenas para Health Check (importante para o GCP saber que está vivo)
 @app.get("/")
 def health_check():
   return jsonify({"status": "ok", "message": "Galactic Codex API is running"}), 200
 
 @app.get("/people")
 def get_people():
-  # Captura o parametro de busca da URL (ex: /people?search=luke)
   search_query = request.args.get("search")
   
   try:
     people = SwapiService.get_people(search_query)
-    # Precisamos converter os objetos Pydantic para dicionários antes de enviar como JSON
     return jsonify([p.model_dump() for p in people]), 200
   except Exception as e:
     return jsonify({"error": str(e)}), 500
@@ -47,6 +44,5 @@ def get_films():
   except Exception as e:
     return jsonify({"error": str(e)}), 500
 
-# Bloco para rodar localmente
 if __name__ == "__main__":
   app.run(debug=True, port=8080)
