@@ -163,7 +163,7 @@ Resposta esperada:
 
 ### Base URL (Produção)
 ```
-https://seu-gateway.apigateway.gcp.cloud
+https://galactic-gateway-1rhausmx.uc.gateway.dev
 ```
 
 ### Base URL (Local)
